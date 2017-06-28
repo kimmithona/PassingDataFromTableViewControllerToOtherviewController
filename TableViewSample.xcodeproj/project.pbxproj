@@ -14,6 +14,18 @@
 		E1473ACC1F03A20B000F9940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1473ACA1F03A20B000F9940 /* LaunchScreen.storyboard */; };
 		E1473AD71F03A20C000F9940 /* TableViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1473AD61F03A20C000F9940 /* TableViewSampleTests.swift */; };
 		E1473AE21F03A20C000F9940 /* TableViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1473AE11F03A20C000F9940 /* TableViewSampleUITests.swift */; };
+		E1473AF01F03A3BA000F9940 /* FlowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1473AEF1F03A3BA000F9940 /* FlowerTableViewCell.swift */; };
+		E1473AFC1F03A526000F9940 /* flowera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF11F03A526000F9940 /* flowera.jpg */; };
+		E1473AFD1F03A526000F9940 /* flowerb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF21F03A526000F9940 /* flowerb.jpg */; };
+		E1473AFE1F03A526000F9940 /* flowerc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF31F03A526000F9940 /* flowerc.jpg */; };
+		E1473AFF1F03A526000F9940 /* flowerd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF41F03A526000F9940 /* flowerd.jpg */; };
+		E1473B001F03A526000F9940 /* flowere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF51F03A526000F9940 /* flowere.jpg */; };
+		E1473B011F03A526000F9940 /* flowerf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF61F03A526000F9940 /* flowerf.jpg */; };
+		E1473B021F03A526000F9940 /* flowerg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF71F03A526000F9940 /* flowerg.jpg */; };
+		E1473B031F03A526000F9940 /* flowerh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF81F03A526000F9940 /* flowerh.jpg */; };
+		E1473B041F03A526000F9940 /* floweri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF91F03A526000F9940 /* floweri.jpg */; };
+		E1473B051F03A526000F9940 /* flowerj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AFA1F03A526000F9940 /* flowerj.jpg */; };
+		E1473B061F03A526000F9940 /* flowerk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AFB1F03A526000F9940 /* flowerk.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		E1473ADD1F03A20C000F9940 /* TableViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1473AE11F03A20C000F9940 /* TableViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSampleUITests.swift; sourceTree = "<group>"; };
 		E1473AE31F03A20C000F9940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1473AEF1F03A3BA000F9940 /* FlowerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowerTableViewCell.swift; sourceTree = "<group>"; };
+		E1473AF11F03A526000F9940 /* flowera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowera.jpg; sourceTree = "<group>"; };
+		E1473AF21F03A526000F9940 /* flowerb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerb.jpg; sourceTree = "<group>"; };
+		E1473AF31F03A526000F9940 /* flowerc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerc.jpg; sourceTree = "<group>"; };
+		E1473AF41F03A526000F9940 /* flowerd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerd.jpg; sourceTree = "<group>"; };
+		E1473AF51F03A526000F9940 /* flowere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowere.jpg; sourceTree = "<group>"; };
+		E1473AF61F03A526000F9940 /* flowerf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerf.jpg; sourceTree = "<group>"; };
+		E1473AF71F03A526000F9940 /* flowerg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerg.jpg; sourceTree = "<group>"; };
+		E1473AF81F03A526000F9940 /* flowerh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerh.jpg; sourceTree = "<group>"; };
+		E1473AF91F03A526000F9940 /* floweri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floweri.jpg; sourceTree = "<group>"; };
+		E1473AFA1F03A526000F9940 /* flowerj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerj.jpg; sourceTree = "<group>"; };
+		E1473AFB1F03A526000F9940 /* flowerk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerk.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +124,19 @@
 				E1473AC11F03A20B000F9940 /* AppDelegate.swift */,
 				E1473AC31F03A20B000F9940 /* ViewController.swift */,
 				E1473AC51F03A20B000F9940 /* Main.storyboard */,
+				E1473AEF1F03A3BA000F9940 /* FlowerTableViewCell.swift */,
 				E1473AC81F03A20B000F9940 /* Assets.xcassets */,
+				E1473AF11F03A526000F9940 /* flowera.jpg */,
+				E1473AF21F03A526000F9940 /* flowerb.jpg */,
+				E1473AF31F03A526000F9940 /* flowerc.jpg */,
+				E1473AF41F03A526000F9940 /* flowerd.jpg */,
+				E1473AF51F03A526000F9940 /* flowere.jpg */,
+				E1473AF61F03A526000F9940 /* flowerf.jpg */,
+				E1473AF71F03A526000F9940 /* flowerg.jpg */,
+				E1473AF81F03A526000F9940 /* flowerh.jpg */,
+				E1473AF91F03A526000F9940 /* floweri.jpg */,
+				E1473AFA1F03A526000F9940 /* flowerj.jpg */,
+				E1473AFB1F03A526000F9940 /* flowerk.jpg */,
 				E1473ACA1F03A20B000F9940 /* LaunchScreen.storyboard */,
 				E1473ACD1F03A20B000F9940 /* Info.plist */,
 			);
@@ -232,8 +268,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1473AFE1F03A526000F9940 /* flowerc.jpg in Resources */,
 				E1473ACC1F03A20B000F9940 /* LaunchScreen.storyboard in Resources */,
+				E1473B021F03A526000F9940 /* flowerg.jpg in Resources */,
 				E1473AC91F03A20B000F9940 /* Assets.xcassets in Resources */,
+				E1473B011F03A526000F9940 /* flowerf.jpg in Resources */,
+				E1473AFD1F03A526000F9940 /* flowerb.jpg in Resources */,
+				E1473B041F03A526000F9940 /* floweri.jpg in Resources */,
+				E1473AFC1F03A526000F9940 /* flowera.jpg in Resources */,
+				E1473AFF1F03A526000F9940 /* flowerd.jpg in Resources */,
+				E1473B001F03A526000F9940 /* flowere.jpg in Resources */,
+				E1473B031F03A526000F9940 /* flowerh.jpg in Resources */,
+				E1473B051F03A526000F9940 /* flowerj.jpg in Resources */,
+				E1473B061F03A526000F9940 /* flowerk.jpg in Resources */,
 				E1473AC71F03A20B000F9940 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1473AC41F03A20B000F9940 /* ViewController.swift in Sources */,
+				E1473AF01F03A3BA000F9940 /* FlowerTableViewCell.swift in Sources */,
 				E1473AC21F03A20B000F9940 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
