@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
 
+    var valueTopassname:String!
+    
    let flower = ["flowera","flowerb","flowerc","flowerd","flowere","flowerf","flowerg","flowerh","floweri","flowerj","flowerk"]
     
     let flower_color = ["red","blue","black","purple","white","green","light_green","light_blue","light_purple","light_red","light_black"]
@@ -35,6 +37,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
     }
     
     
+    
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
     
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FlowerTableViewCell
@@ -47,7 +50,18 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         
         
     }
-
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("ROW\(indexPath.row)Selected")
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let detailVC = storyboard.instantiateViewController(withIdentifier: "DetailFlowerViewController") as! DetailFlowerViewController
+        detailVC.flower_img = UIImage(named:(flower[indexPath.row])+".jpg")
+        detailVC.name = flower[indexPath.row]
+        detailVC.color = flower_color[indexPath.row]
+        detailVC.price = flower_price[indexPath.row]
+        self.navigationController?.pushViewController(detailVC, animated: true)
+        
+    }
 }
 

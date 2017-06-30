@@ -26,6 +26,7 @@
 		E1473B041F03A526000F9940 /* floweri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AF91F03A526000F9940 /* floweri.jpg */; };
 		E1473B051F03A526000F9940 /* flowerj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AFA1F03A526000F9940 /* flowerj.jpg */; };
 		E1473B061F03A526000F9940 /* flowerk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1473AFB1F03A526000F9940 /* flowerk.jpg */; };
+		E197BB051F062F5B003551BC /* DetailFlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E197BB041F062F5B003551BC /* DetailFlowerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E1473AF91F03A526000F9940 /* floweri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floweri.jpg; sourceTree = "<group>"; };
 		E1473AFA1F03A526000F9940 /* flowerj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerj.jpg; sourceTree = "<group>"; };
 		E1473AFB1F03A526000F9940 /* flowerk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flowerk.jpg; sourceTree = "<group>"; };
+		E197BB041F062F5B003551BC /* DetailFlowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailFlowerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +125,9 @@
 			children = (
 				E1473AC11F03A20B000F9940 /* AppDelegate.swift */,
 				E1473AC31F03A20B000F9940 /* ViewController.swift */,
-				E1473AC51F03A20B000F9940 /* Main.storyboard */,
 				E1473AEF1F03A3BA000F9940 /* FlowerTableViewCell.swift */,
+				E197BB041F062F5B003551BC /* DetailFlowerViewController.swift */,
+				E1473AC51F03A20B000F9940 /* Main.storyboard */,
 				E1473AC81F03A20B000F9940 /* Assets.xcassets */,
 				E1473AF11F03A526000F9940 /* flowera.jpg */,
 				E1473AF21F03A526000F9940 /* flowerb.jpg */,
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E197BB051F062F5B003551BC /* DetailFlowerViewController.swift in Sources */,
 				E1473AC41F03A20B000F9940 /* ViewController.swift in Sources */,
 				E1473AF01F03A3BA000F9940 /* FlowerTableViewCell.swift in Sources */,
 				E1473AC21F03A20B000F9940 /* AppDelegate.swift in Sources */,
@@ -555,6 +559,7 @@
 				E1473AE81F03A20C000F9940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1473AE91F03A20C000F9940 /* Build configuration list for PBXNativeTarget "TableViewSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +568,7 @@
 				E1473AEB1F03A20C000F9940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1473AEC1F03A20C000F9940 /* Build configuration list for PBXNativeTarget "TableViewSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +577,7 @@
 				E1473AEE1F03A20C000F9940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
